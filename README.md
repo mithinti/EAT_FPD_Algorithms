@@ -1,6 +1,20 @@
 # EAT-FPD-Algorithms
 Efficient Algorithms for Earliest and Fastest Paths in Public Transport Networks
 
+This repository provides efficient near-linear time algorithms for solving the Earliest Arrival Time (EAT) and Fastest Path Duration (FPD) problems in temporal graphs, with a focus on real-world public transportation networks.
+
+✨ Overview
+
+We propose four novel algorithms:
+
+EAT-T
+
+EAT-TL
+
+FPD-T
+
+FPD-TL
+
 Technical Specifications: The experimentation is conducted on a machine equipped with an INTEL XEON E5-2620 v4 CPU operating at a frequency of 2.20 GHz and featuring 32 GB of primary memory and 512 MB cache memory. The compiler used is gcc version 5.4.0.
 
 
@@ -59,10 +73,8 @@ The second line consists of m2 space-separated values that indicate the neighbou
 -1
 ****************************************************************************************************************************************************
 
-##Earliest Arrival Time Algorithm Query format
-
-We run state-of-the-art and proposed algorithms on 100 generated random queries, each consisting of two values: a source vertex and a ready time. The source vertices are randomly selected from $0$ to $n$, where $n$ denotes the number of vertices in the underlying graph, and the corresponding ready times are chosen randomly within the range of 0 to 100. We then use these generated queries to run all three algorithms on nine public transportation data sets, measuring the average query running time in milliseconds.
-
+##Query format
+We have generated $100$ queries and used the same $100$ queries to run baseline and proposed algorithms on fourteen public transportation data sets, measuring the average query running time in milliseconds. In \textsc{eat} experiment, each query consists of two values: a source vertex and a ready time and in \textsc{fpd} experiment, each query has a source vertex. The source vertices are randomly selected from $0$ to $n-1$, where $n$ denotes the number of vertices in the underlying graph, and the corresponding ready times are chosen randomly within the range of $0$ to $100$.
 
 Contact
 If you have any questions, contact us by sending an email to srikanth.mithinti@gmail.com or rama@iittp.ac.in
