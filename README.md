@@ -33,9 +33,11 @@ The first line consists of two positive values separated by a space: n and m. He
 The following m lines consist of four positive integers separated by spaces: u, v, t, and lambda. Here, u and v denote the end vertices of a connection, t is the starting time at u, and lambda represents the duration required to reach v from u.
 
 Note: These connections are sorted in increasing order of departure time t-value
+
+ <pre> ```text 6 11 0 1 0 1 0 1 2 1 1 2 1 2 3 2 5 2 1 2 3 3 3 2 2 3 1 3 4 4 1 3 6 4 3 2 10 5 3 4 10 10 2 5 20 25 ``` </pre> 
 ****************************************************************************************************************************************************
 ****************************************************************************************************************************************************
-``plaintext
+```plaintext
 6 11
 0 1 0 1
 0 1 2 1
@@ -48,7 +50,7 @@ Note: These connections are sorted in increasing order of departure time t-value
 3 2 10 5
 3 4 10 10
 2 5 20 25
-``plaintext
+```plaintext
 ****************************************************************************************************************************************************
    
 ESDG Input Format:
