@@ -35,7 +35,6 @@ The following m lines consist of four positive integers separated by spaces: u, 
 Note: These connections are sorted in increasing order of departure time t-value 
 ****************************************************************************************************************************************************
 ****************************************************************************************************************************************************
-<pre>
 ```plaintext
 6 11
 0 1 0 1
@@ -50,7 +49,6 @@ Note: These connections are sorted in increasing order of departure time t-value
 3 4 10 10
 2 5 20 25
 ```plaintext
-</pre>
 ****************************************************************************************************************************************************
    
 ESDG Input Format:
